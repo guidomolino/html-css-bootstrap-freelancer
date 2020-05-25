@@ -52,20 +52,20 @@ nav [class^="col-"]{
 /* PORTFOLIO */
 
 .portfolio .container-fluid{
-  padding: 3% 15%;
+  padding: 3% 0;
   height: auto;
 }
   /* media padding */
 @media all and (min-width: 992px){
   .portfolio .container-fluid{
-    padding: 3% 15%;
+    padding: 3% 5%;
     height: auto;
   }
 }
 
 @media all and (min-width: 1200px){
   .portfolio .container-fluid{
-    padding: 3% 5%;
+    padding: 3% 15%;
     height: auto;
   }
 }
@@ -87,12 +87,12 @@ nav [class^="col-"]{
 }
 
 .about .container-fluid{
-  padding: 3% 18% 2% 18%;
+  padding: 3% 10% 2% 10%;
 }
   /* media padding */
 @media all and (min-width: 992px){
   .about .container-fluid{
-    padding: 3% 18% 2% 18%;
+    padding: 3% 15% 2% 15%;
   }
 }
 
@@ -121,12 +121,12 @@ nav [class^="col-"]{
 }
 
 .contact .container-fluid{
-  padding: 3% 18% 2% 18%;
+  padding: 3% 10% 2% 10%;
 }
   /* media padding */
 @media all and (min-width: 992px){
   .contact .container-fluid{
-    padding: 3% 18% 2% 18%;
+    padding: 3% 15% 2% 15%;
   }
 }
 
@@ -145,12 +145,12 @@ nav [class^="col-"]{
 footer .container-fluid> .row:first-child{
   background-color: #3A546DFF;
   height: auto;
-  padding: 2% 15%;
+  padding: 2% 2%;
 }
   /* media padding */
 @media all and (min-width: 992px){
   footer .container-fluid> .row:first-child{
-    padding: 2% 15%;
+    padding: 2% 5%;
   }
 }
 
@@ -167,19 +167,6 @@ footer .container-fluid> .row:first-child [class^="col-"]{
 footer .container-fluid> .row:last-child{
   background-color: #2C3E50FF;
   height: auto;
-  padding: 1% 15% 2% 15%;
-}
-  /* media padding */
-@media all and (min-width: 992px){
-  footer .container-fluid> .row:last-child{
-    padding: 1% 15% 2% 15%;
-  }
-}
-
-@media all and (min-width: 1200px) {
-  footer .container-fluid> .row:last-child{
-    padding: 1% 15% 2% 15%;
-  }
 }
 
 footer .container-fluid> .row:last-child [class^="col-"]{
