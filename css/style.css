@@ -1,0 +1,99 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* DEBUG:  */
+
+[class^="col-"] {
+  border: 1px solid black;
+}
+
+/* NAVBAR */
+
+nav {
+  background-color:#2C3E50FF;
+  padding: 0 10%;
+}
+
+nav [class^="col-"]{
+  height: 60px;
+}
+
+.start {
+  background-color: #1ABC9CFF;
+  height: auto;
+}
+
+.start [class^="col-"]{
+  height: 300px;
+}
+
+/* PORTFOLIO */
+
+.portfolio{
+  padding: 3% 10%;
+  height: auto;
+}
+
+.portfolio [class^="col-"]{
+  height: 200px;
+}
+
+.portfolio .row:last-child > div {
+  height: 250px;
+}
+
+/* ABOUT */
+
+.about{
+  background-color: #1ABC9CFF;
+  height: auto;
+  padding: 3% 12% 2% 12%;
+}
+
+.about .title [class^="col-"]{
+  height: 100px;
+}
+
+.about .testo [class^="col-"]{
+  height: 110px;
+}
+
+.about .button [class^="col-"]{
+  height: 40px;
+}
+
+/* CONTACT ME */
+
+.contact{
+  height: auto;
+  padding: 3% 12% 2% 12%;
+}
+
+.contact [class^="col-"]{
+  height: 350px;
+}
+
+/* FOOTER */
+
+footer > .row:first-child{
+  background-color: #3A546DFF;
+  height: auto;
+  padding: 2% 10%;
+}
+
+footer > .row:first-child [class^="col-"]{
+  height: 150px;
+}
+
+footer > .row:last-child{
+  background-color: #2C3E50FF;
+  height: auto;
+  padding: 1% 10% 2% 10%;
+}
+
+footer > .row:last-child [class^="col-"]{
+  height: 50px;
+}
