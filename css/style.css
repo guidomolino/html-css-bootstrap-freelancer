@@ -14,12 +14,18 @@
 
 nav {
   background-color:#2C3E50FF;
-  padding: 0 10%;
+  height: auto;
+}
+
+nav .container-fluid{
+  padding: 0 15%;
 }
 
 nav [class^="col-"]{
   height: 60px;
 }
+
+/* START */
 
 .start {
   background-color: #1ABC9CFF;
@@ -32,8 +38,8 @@ nav [class^="col-"]{
 
 /* PORTFOLIO */
 
-.portfolio{
-  padding: 3% 10%;
+.portfolio .container-fluid{
+  padding: 3% 15%;
   height: auto;
 }
 
@@ -41,7 +47,7 @@ nav [class^="col-"]{
   height: 200px;
 }
 
-.portfolio .row:last-child > div {
+.portfolio .row:last-child > [class^="col-"] {
   height: 250px;
 }
 
@@ -50,7 +56,11 @@ nav [class^="col-"]{
 .about{
   background-color: #1ABC9CFF;
   height: auto;
-  padding: 3% 12% 2% 12%;
+
+}
+
+.about .container-fluid{
+  padding: 3% 18% 2% 18%;
 }
 
 .about .title [class^="col-"]{
@@ -69,7 +79,10 @@ nav [class^="col-"]{
 
 .contact{
   height: auto;
-  padding: 3% 12% 2% 12%;
+}
+
+.contact .container-fluid{
+  padding: 3% 18% 2% 18%;
 }
 
 .contact [class^="col-"]{
@@ -77,27 +90,23 @@ nav [class^="col-"]{
 }
 
 /* FOOTER */
-
-footer > .row:first-child{
+/* contatti */
+footer .container-fluid> .row:first-child{
   background-color: #3A546DFF;
   height: auto;
-  padding: 2% 10%;
+  padding: 2% 15%;
 }
 
-footer > .row:first-child [class^="col-"]{
+footer .container-fluid> .row:first-child [class^="col-"]{
   height: 150px;
 }
-
-footer > .row:last-child{
+/* copyright */
+footer .container-fluid> .row:last-child{
   background-color: #2C3E50FF;
   height: auto;
-  padding: 1% 10% 2% 10%;
+  padding: 1% 15% 2% 15%;
 }
 
-footer > .row:last-child [class^="col-"]{
+footer .container-fluid> .row:last-child [class^="col-"]{
   height: 40px;
-}
-
-@media all  {
-
 }
