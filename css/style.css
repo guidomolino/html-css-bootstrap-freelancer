@@ -18,7 +18,20 @@ nav {
 }
 
 nav .container-fluid{
-  padding: 0 15%;
+  padding: 0;
+}
+
+  /* media padding */
+@media all and (min-width: 992px){
+  nav .container-fluid{
+    padding: 0 5%;
+  }
+}
+
+@media all and (min-width: 1200px) {
+  nav .container-fluid{
+    padding: 0 15%;
+  }
 }
 
 nav [class^="col-"]{
@@ -42,6 +55,20 @@ nav [class^="col-"]{
   padding: 3% 15%;
   height: auto;
 }
+  /* media padding */
+@media all and (min-width: 992px){
+  .portfolio .container-fluid{
+    padding: 3% 15%;
+    height: auto;
+  }
+}
+
+@media all and (min-width: 1200px){
+  .portfolio .container-fluid{
+    padding: 3% 5%;
+    height: auto;
+  }
+}
 
 .portfolio [class^="col-"]{
   height: 200px;
@@ -61,6 +88,18 @@ nav [class^="col-"]{
 
 .about .container-fluid{
   padding: 3% 18% 2% 18%;
+}
+  /* media padding */
+@media all and (min-width: 992px){
+  .about .container-fluid{
+    padding: 3% 18% 2% 18%;
+  }
+}
+
+@media all and (min-width: 1200px) {
+  .about .container-fluid{
+    padding: 3% 18% 2% 18%;
+  }
 }
 
 .about .title [class^="col-"]{
@@ -84,6 +123,18 @@ nav [class^="col-"]{
 .contact .container-fluid{
   padding: 3% 18% 2% 18%;
 }
+  /* media padding */
+@media all and (min-width: 992px){
+  .contact .container-fluid{
+    padding: 3% 18% 2% 18%;
+  }
+}
+
+@media all and (min-width: 1200px) {
+  .contact .container-fluid{
+    padding: 3% 18% 2% 18%;
+  }
+}
 
 .contact [class^="col-"]{
   height: 350px;
@@ -96,6 +147,18 @@ footer .container-fluid> .row:first-child{
   height: auto;
   padding: 2% 15%;
 }
+  /* media padding */
+@media all and (min-width: 992px){
+  footer .container-fluid> .row:first-child{
+    padding: 2% 15%;
+  }
+}
+
+@media all and (min-width: 1200px) {
+  footer .container-fluid> .row:first-child{
+    padding: 2% 15%;
+  }
+}
 
 footer .container-fluid> .row:first-child [class^="col-"]{
   height: 150px;
@@ -105,6 +168,18 @@ footer .container-fluid> .row:last-child{
   background-color: #2C3E50FF;
   height: auto;
   padding: 1% 15% 2% 15%;
+}
+  /* media padding */
+@media all and (min-width: 992px){
+  footer .container-fluid> .row:last-child{
+    padding: 1% 15% 2% 15%;
+  }
+}
+
+@media all and (min-width: 1200px) {
+  footer .container-fluid> .row:last-child{
+    padding: 1% 15% 2% 15%;
+  }
 }
 
 footer .container-fluid> .row:last-child [class^="col-"]{
