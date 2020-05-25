@@ -95,5 +95,9 @@ footer > .row:last-child{
 }
 
 footer > .row:last-child [class^="col-"]{
-  height: 50px;
+  height: 40px;
+}
+
+@media all  {
+
 }
