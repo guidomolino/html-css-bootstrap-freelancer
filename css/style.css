@@ -4,12 +4,6 @@
   box-sizing: border-box;
 }
 
-/* DEBUG:  */
-
-/* [class^="col-"] {
-  border: 1px solid black;
-} */
-
 /* NAVBAR */
 
 nav {
@@ -101,24 +95,16 @@ nav [class^="col-"]{
   margin: 10px 3%;
 }
 
-.start [class^="col-"]{
-  height: 500px;
+.start p{
+  font-size: 20px;
+  padding-bottom: 80px;
 }
-
 /* PORTFOLIO */
 
 .portfolio {
   height:auto;
   text-align: center;
   color: #2C3E50FF;
-}
-
-.portfolio [class^="col-"]{
-  height: 200px;
-}
-
-.portfolio .row:last-child [class^="col-"] {
-  height: 250px;
 }
 
 /* titolo */
@@ -157,19 +143,8 @@ nav [class^="col-"]{
   text-align: center;
 }
 
-.about .title [class^="col-"]{
-  height: 210px;
-}
-
-.about .testo [class^="col-"]{
-  height: auto;
-}
-
-.about .button [class^="col-"]{
-  height: auto;
-}
-
 /* titolo */
+
 .about h1{
   margin-top: 100px;
 }
@@ -217,10 +192,6 @@ nav [class^="col-"]{
   height: auto;
   text-align: center;
   color: #2C3E50FF;
-}
-
-.contact [class^="col-"]{
-  height: auto;
 }
 
 /* titolo */
