@@ -12,6 +12,7 @@ nav {
   text-align: center;
   color: white;
 }
+
 nav h2 {
   font-size: 20px;
   padding: 20px 0;
@@ -19,6 +20,11 @@ nav h2 {
 
 nav a{
   color: inherit;
+}
+
+nav a:hover{
+  color: #1ABC9CFF;
+  text-decoration: none;
 }
 
 nav ul {
@@ -47,13 +53,6 @@ nav ul {
   }
 }
 
-
-nav [class^="col-"]{
-  height: 100px;
-}
-
-
-
 /* START */
 
 .start {
@@ -73,14 +72,12 @@ nav [class^="col-"]{
   .start img {
     width: 32%;
   }
-
 }
 
 @media all and (min-width:1200px){
   .start img {
     width: 35%;
   }
-
 }
 
 .start span{
@@ -105,6 +102,7 @@ nav [class^="col-"]{
   height:auto;
   text-align: center;
   color: #2C3E50FF;
+  padding-bottom: 80px;
 }
 
 /* titolo */
@@ -217,7 +215,10 @@ nav [class^="col-"]{
 }
 
 .contact button {
-  background-color: green;
+  background-color: #1ABC9CFF;
+  padding: 13px 27px;
+  font-size: 18px;
+  border: none;
 }
 
 .contact form .row:last-child{
@@ -227,20 +228,66 @@ nav [class^="col-"]{
 
 /* FOOTER */
 /* contatti */
+footer{
+  color: white;
+  text-align: center;
+}
+
 footer section:first-child{
   background-color: #3A546DFF;
   height: auto;
 }
 
-footer section:first-child [class^="col-"]{
+/* footer section:first-child [class^="col-"]{
   height: 150px;
+} */
+
+.contatti a{
+  color: #1ABC9CFF;
 }
+
+.contatti a:hover{
+  color: green;
+}
+
+.contatti li{
+  display: inline-block;
+  margin-top: 20px;
+}
+
+.contatti li a{
+  font-size: 20px;
+  border: 1px solid white;
+  border-radius: 50%;
+  padding: 10px;
+  margin: 5px;
+  color: white;
+}
+
+.contatti li a:hover{
+  background-color: white;
+  color: black;
+}
+
+.contatti h3{
+  padding-top: 40px;
+}
+
+.contatti p{
+  margin: 20px 0 40px 0;
+}
+
 /* copyright */
 footer section:last-child{
   background-color: #2C3E50FF;
   height: auto;
 }
 
+.copyright p{
+  margin: 30px 0;
+}
+
+/*
 footer section:last-child [class^="col-"]{
   height: 40px;
-}
+} */
