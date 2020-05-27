@@ -12,10 +12,19 @@ nav {
   text-align: center;
   color: white;
 }
-
+.navbar {
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
 nav h2 {
   font-size: 20px;
   padding: 20px 0;
+}
+
+.pos-f-t{
+  margin-top:40px;
 }
 
 nav a{
@@ -32,9 +41,14 @@ nav ul {
 }
 
 @media all and (min-width:992px) {
+  .pos-f-t{
+    display: none;
+  }
+
   nav ul{
     display: block;
   }
+
   nav li{
     display: inline-block;
     padding: 40px 5%;
@@ -42,6 +56,9 @@ nav ul {
 }
 
 @media all and (min-width:1200px) {
+  .pos-f-t{
+    display: none;
+  }
 
   nav ul{
     display: block;
@@ -194,8 +211,8 @@ nav ul {
 
 /* titolo */
 
-.contact .titolo h1{
-  margin-top: 80px;
+.contact{
+  padding: 80px 0;
 }
 
 .contact .titolo span{
@@ -214,6 +231,13 @@ nav ul {
   margin-bottom: 0;
 }
 
+.contact .form-control{
+  border: none;
+  font-size: 22px;
+  margin: 20px 0;
+  box-shadow: 0px 9px 0px -8px #d1d1d1;
+}
+
 .contact button {
   background-color: #1ABC9CFF;
   padding: 13px 27px;
@@ -223,7 +247,6 @@ nav ul {
 
 .contact form .row:last-child{
   text-align: left;
-  margin-bottom: 80px;
 }
 
 /* FOOTER */
